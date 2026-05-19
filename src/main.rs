@@ -79,8 +79,11 @@ fn main() {
         TimerFuture::new(Duration::new(2, 0)).await;
         println!("Fadhil's Computer: done!");
     });
+    println!("Fadhil's Computer: hey hey");
+
 
     drop(spawner);
+
 
     executor.run();
 }
